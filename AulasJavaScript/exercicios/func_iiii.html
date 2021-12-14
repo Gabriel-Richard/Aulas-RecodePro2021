@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trocando as bordas</title>
+    <style>
+        div{
+            border: 1px solid block;
+            margin: 1px;
+        }
+    </style>
+    <script>
+        function trocaFundo(fundo) {
+           fundo.style.backgroundcolor="blue"; 
+        }
+        function trocacor(colorido) {
+            colorido.style.color="red";
+        }
+    </script>
+</head>
+<body>
+    <div class="div1">
+        <p>
+            texto aleatorio da div 1
+        </p>
+    </div>
+    <div class="div2">
+        <p>
+            texto aleatorio da div 2
+        </p>
+    </div>
+    <form>
+        <button onclick="trocaFundo(this)">trocar o fundo</button>
+        <button onclick="trocacor(this)">trocar a cor</button>
+    </form>
+</body>
+</html>
+<!--
+    Criar um arquivo HTML com o nome que quiser;
+Criar uma tag <style> na tag <head> para configurar as bordas das tags <div>;
+border: 1px solid black;
+margin: 5px;
+Criar duas tags <div> com a referência das classes;
+Criar uma função para alterar a cor da primeira tag <div>;
+Criar uma função para trocar o backgroundcolor da primeira tag <div>;
+Criar um botão para executar a função;
+-->

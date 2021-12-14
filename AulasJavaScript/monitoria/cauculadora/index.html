@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora</title>
+</head>
+<body>
+    <div>
+        <h1>Calculadora</h1>
+        <p>recodePro 2021</p>
+    </div>
+
+    <div>
+        <div>
+            <div>
+                <label for="primeiraVariavel">Priemira variavel</label>
+                <input type="number" name="primeiraVariavel" placeholder="0"
+                id="primeiraVariavel" required>
+            </div>
+
+            <div>
+                <label for="segundaVariavel">Segunda variavel</label>
+                <input type="number" name="segundaVariavel" placeholder="0"
+                id="segundaVariavel" required>
+            </div>
+        </div>
+        <div>
+            <select id="myList" onchange="operacoesElementais()">
+                <option>Escolha uma operação</option>
+                <option value="adicao"></option>
+                <option value="subtracao"></option>
+                <option value="multiplicacao"></option>
+                <option value="divisao"></option>
+            </select>
+        </div>
+        <div>
+            <button type="button" onclick="calcular()">CALCULAR</button>           
+        </div>
+        <div>
+            <label>
+                Resultado de .....
+                <input type="text" id="operacao" class="inputOperation">
+            </label>
+
+            <div class="resultado"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

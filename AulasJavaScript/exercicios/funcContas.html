@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titulo</title>
+    <script>
+        function soma (n1, n2) {
+            let vSoma = n1 + n2;
+            alert("A soma dos dois numero foi de: "+ vSoma)
+        }
+        function subtrair (n1, n2) {
+            let vSub = n1 - n2;
+            alert("A subtração dos dois valores foi de: "+vSub)            
+        }
+        function multiplicar (n1, n2) {
+            let vMut =  n1 * n2;
+            alert("A multiplicação dos numeros foi de: "+ vMut)
+        }
+
+    </script>
+</head>
+<body>
+    <h2>calculando de diversas formas</h2>
+    <script>
+        let numero1 = prompt("Digite o primeiro numero: ")
+        let numero2 = prompt("Digite o segundo numro: ")
+    </script>
+    <form>
+        <button onclick="soma(parseInt(numero1), parseInt(numero2))">Clique aqui para somar</button>
+        <button onclick="subtrair(numero1, numero2)">Clique aqui para subtrair</button>
+        <button onclick="multiplicar(numero1, numero2)">Clique aqui para multiplicar</button>
+    </form>
+</body>
+</html>
+
+<!--
+Criar um arquivo .html;
+Criar uma função na tag <head> para somar dois números;
+Criar uma função na tag <head> para subtrair dois números;
+Criar uma função na tag <head> para multiplicar dois números;
+Exibir o resultado do somatório com o comando alert. Um em cada função;
+Criar na tag <body> a entrada de dados de dois valores utilizando o prompt;
+Criar um título com a tag <h2>;
+Criar um botão para chamar a função soma;
+Criar um botão para chamar a função subtrair;
+Criar um botão para chamar a função multiplicar;
+
+
+-->

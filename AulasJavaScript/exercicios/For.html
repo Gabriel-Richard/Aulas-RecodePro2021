@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando o For</title>
+</head>
+<body>
+    <h2>digite 5 numeros</h2>
+    <p>pa, pum, pirulito pão doce</p>
+
+    <script>
+        let n1 = 0
+        let par = 0
+        let impar = 0
+        let somatorio = 0
+        for (num=1 ; num <=5 ; num++){
+            n1 = prompt("digite o "+ num + " numero: ")                          
+            document.write("Numeros: "+n1+ "<br>" )
+            somatorio += n1  
+            if (n1 % 2 ==0)
+            {
+                par += 1
+            }
+            else {
+                impar += 1
+            }
+            n1++ 
+        }
+        document.write("O somatorio de tdos os numeros é de: "+ somatorio+ "<br>")
+        document.write("O total de numeros pares foi de: "+ par +"<br>" )
+        document.write("O total de numeros impares foi de: "+ impar )
+
+    </script>
+</body>
+</html>
+
+
+<!---
+    Fazer um programa para digitar 5 números e após o término da repetição é preciso exibir na página
+o valor total (somatório) dos números informados. É preciso exibir também após o término da repetição
+quantos números digitados são ímpares e pares.
+
+O programa deve ter um título;
+No <body> deve ter um <h2> Com uma informação que represente o que o programa irá fazer;
+Inserir uma imagem que represente uma estrutura de repetição. A imagem deve estar centralizada na tela;
+No <body> deve ter um parágrafo com orientações sobre a estrutura de repetição. É preciso utilizar o <style>
+para dar uma forma mais bonita no parágrafo.
+-->/

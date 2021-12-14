@@ -1,0 +1,27 @@
+
+.fundo{
+    background-color:aqua ;
+}
+
+.texto{
+    font-size: 40%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cores{
+    color: darkmagenta;
+}
+
+/*
+[09:23] Claudio Fico
+Duração de 25 minutos
+Criar um arquivo de nome formatos.css
+1.1 Criar uma formatação de fundo de tela, cor da fonte, tipo de fonte e centralização do texto;
+Criar um arquivo html de exerclass.html;
+Colocar um título como uso tag <title>;
+Fazer o link para que os parágrafos tenham a formatação do arquivo externo formato.css;
+Criar três parágrafos com texto livre;
+Trabalhar com formatações que você crie;
+
+
+*/

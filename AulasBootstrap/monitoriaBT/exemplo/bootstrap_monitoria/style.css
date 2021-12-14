@@ -1,0 +1,20 @@
+/* * {
+    margin: 0;
+    padding: 0;
+}
+*/
+/* .con {
+    width: 100% !important;
+    height: 200px !important;
+    background-color: yellow !important;
+    padding: 20px !important;
+}  */
+
+.carrosel {
+    text-align: center;
+}
+
+.fundo-vermelho {
+    background-color: red;
+    margin: 10px 0;
+}

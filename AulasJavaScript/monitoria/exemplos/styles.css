@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: nome;   
+}
+html{
+    background: url(./imagens/comic.jpg);
+}
+.main{
+    border: solid 1px red;
+    width: 80%;
+    margin: 70px auto;
+    background-color: #ffffff20;
+    backdrop-filter: blur(10px);
+    padding-top: 60px;
+    border-radius: 32px;
+}
+h1{ text-align: center;
+    margin: 20px auto;
+    color: black;
+    font-size: 50px;
+}
+img{width: 500px;
+    margin: 0px 25%;
+}
+
+.escolha{
+    border: solid 2px blue;
+    height: 100px;
+    background: linear-gradient(
+    to button, #00d2ff, #3a7bd5);
+    text-align: center;
+    padding-top: 20px;
+}
+p{
+    color: white;
+    font-size: 15px;
+}
+label{
+    margin: 0px 12px;
+}
